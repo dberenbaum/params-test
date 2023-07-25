@@ -1,0 +1,4 @@
+stages:
+  cmd: echo ${params} > outs
+  outs:
+  - outs
