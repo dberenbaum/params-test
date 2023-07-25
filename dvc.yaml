@@ -1,4 +1,5 @@
 stages:
-  cmd: echo ${params} > outs
-  outs:
-  - outs
+  params_test:
+    cmd: echo ${params} > outs
+    outs:
+    - outs
