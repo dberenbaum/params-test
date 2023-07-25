@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  params_test:
+    cmd: echo --foo 1 > outs
+    outs:
+    - path: outs
+      hash: md5
+      md5: 473ab35721d0b3a8c1632ae0e4717a2d
+      size: 8
