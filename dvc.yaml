@@ -2,4 +2,5 @@ stages:
   params_test:
     cmd: echo ${params} > outs
     outs:
-    - outs
+    - outs:
+        cache: false
