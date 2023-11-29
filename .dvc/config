@@ -3,4 +3,4 @@
 [hydra]
     enabled = true
 ['remote "default"']
-    url = ../../dvcremote
+    url = /private/tmp/dvcremote
